@@ -1,9 +1,9 @@
 import React from "react";
 import Select from "react-select";
-import { Ingredient } from "../Utilities/CocktailAPI";
+import { IngredientOption } from "../Utilities/CocktailAPI";
 
 interface Props {
-    ingredients: Ingredient[];
+    ingredients: IngredientOption[];
     fnChange: React.Dispatch<React.SetStateAction<string | null>>;
 }
 
